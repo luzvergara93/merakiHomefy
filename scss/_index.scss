@@ -4,8 +4,6 @@ $main-font: 'Raleway', sans-serif;
 $secondary-font: 'Amatic SC', cursive;
 $background-img: url('../imgs/marmol.jpg');
 $border: 2px solid #123D6B;
-$width: 40px;
-
 $colors: ("main": #123D6B, "secondary": #BA985D, "tertiary": black);
 
 @each $name-color, $color in $colors {
@@ -21,7 +19,7 @@ body {
     background-image: linear-gradient(to right, #E0D8BA, white);
 
         .logoBack {
-        width: $width * 2;
+        width: 80px;
         }
 
         .navbar { 
@@ -139,7 +137,7 @@ body {
             justify-content: center;
 
             video {
-                width: $width * 10; 
+                width: 400px; 
                 margin: 30px;
                 padding: 30px;  
             }
