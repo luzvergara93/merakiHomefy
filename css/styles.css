@@ -119,6 +119,14 @@ body {
         padding: 20px;
         background-image: url("../imgs/marmol.jpg");
         border: 2px solid #123D6B; }
+        @media (min-width: 351px) and (max-width: 516px) {
+          body main .contPres .contPresupuesto .presupuesto {
+            width: 300px;
+            font-size: 15px; } }
+        @media (min-width: 0px) and (max-width: 350px) {
+          body main .contPres .contPresupuesto .presupuesto {
+            width: 200px;
+            font-size: 15px; } }
       body main .contPres .contPresupuesto a {
         font-size: 1rem;
         padding-right: 0px; }

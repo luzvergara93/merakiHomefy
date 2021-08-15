@@ -166,6 +166,15 @@ body {
                     padding: 20px;
                     background-image: $background-img;
                     border: $border;
+
+                    @media (min-width: 351px) and (max-width:516px) {
+                        width: 300px;
+                        font-size: 15px;
+                    }
+                    @media (min-width: 0px) and (max-width:350px) {
+                        width: 200px;
+                        font-size: 15px;
+                    } 
                 }
 
                 a {
