@@ -23,12 +23,25 @@ body {
         }
 
         .navbar { 
+        
+                .dropdown-menu {
+                    background-color: #e9e2c9;
+                    border: none;
+                    opacity: 90%;
+                
+                .dropdown-item:hover {
+                    background-color: map-get($map: $colors, $key: secondary);
+                }
+            
+            }
+
             a, a:visited {
             font-family: $main-font;
             font-size: 1.5rem;
             font-weight: bold;
             padding-right: 50px;
             text-decoration: none;
+            color: map-get($map: $colors, $key: main);
             }
         }
 
@@ -127,7 +140,7 @@ body {
             font-size: 2rem;
             font-weight: bold;
             text-align: center;
-            margin-top: 100px;
+            margin-top: 50px;
             margin-bottom: 50px;
         }
 
@@ -135,6 +148,7 @@ body {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            margin-top: 200px;
 
             video {
                 width: 400px; 

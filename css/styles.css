@@ -15,12 +15,19 @@ body {
   background-image: linear-gradient(to right, #E0D8BA, white); }
   body .logoBack {
     width: 80px; }
+  body .navbar .dropdown-menu {
+    background-color: #e9e2c9;
+    border: none;
+    opacity: 90%; }
+    body .navbar .dropdown-menu .dropdown-item:hover {
+      background-color: #BA985D; }
   body .navbar a, body .navbar a:visited {
     font-family: "Raleway", sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
     padding-right: 50px;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #123D6B; }
   body .bcrumb {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
@@ -91,12 +98,13 @@ body {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px; }
   body main .contPres {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; }
+    justify-content: center;
+    margin-top: 200px; }
     body main .contPres video {
       width: 400px;
       margin: 30px;
