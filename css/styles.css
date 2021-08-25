@@ -245,7 +245,8 @@ body main .aboutCont {
     padding: 20px; }
     @media (min-width: 0px) and (max-width: 980px) {
       body main .aboutCont .aboutUs {
-        width: auto; } }
+        width: auto;
+        font-size: 18px; } }
 
 .errCont {
   display: flex;
