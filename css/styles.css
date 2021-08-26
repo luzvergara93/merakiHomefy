@@ -21,13 +21,16 @@ body {
     opacity: 90%; }
     body .navbar .dropdown-menu .dropdown-item:hover {
       background-color: #BA985D; }
-  body .navbar a, body .navbar a:visited {
+  body .navbar .a, body .navbar .a:visited {
     font-family: "Raleway", sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
     padding-right: 50px;
-    text-decoration: none;
-    color: #123D6B; }
+    text-decoration: none; }
+  body .navbar .search {
+    text-decoration: none; }
+    body .navbar .search:hover {
+      color: #123D6B; }
   body .bcrumb {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
