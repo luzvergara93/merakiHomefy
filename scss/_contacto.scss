@@ -23,6 +23,11 @@ body{
                 a {
                     font-size: 1rem;
                     padding-right: 0px;
+                    text-decoration: none;
+
+                    &:hover{
+                        color: map-get($map: $colors, $key: main);
+                    }
                     
                 }
 

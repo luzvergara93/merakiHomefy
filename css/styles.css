@@ -34,7 +34,7 @@ body {
     padding-left: 10px;
     text-decoration: none;
     color: #123D6B; }
-  body button {
+  body .btn {
     background-color: #123D6B;
     color: #BA985D;
     font-weight: bold;
@@ -42,7 +42,7 @@ body {
     height: 50px;
     padding: 10px;
     font-family: "Raleway", sans-serif; }
-    body button:hover {
+    body .btn:hover {
       background-color: #BA985D;
       color: #123D6B; }
   body main .banner {
@@ -138,7 +138,10 @@ body {
             font-size: 15px; } }
       body main .contPres .contPresupuesto a {
         font-size: 1rem;
-        padding-right: 0px; }
+        padding-right: 0px;
+        text-decoration: none; }
+        body main .contPres .contPresupuesto a:hover {
+          color: #123D6B; }
   body footer {
     display: flex;
     justify-content: space-between;
@@ -194,7 +197,18 @@ body main .productos {
       font-family: "Amatic SC", cursive;
       color: black;
       font-size: 2rem;
-      margin: 10px; }
+      margin-top: 10px; }
+    body main .productos .productCont .sinStock {
+      color: grey;
+      border: 1px solid grey;
+      padding: 5px;
+      margin-bottom: 10px; }
+    body main .productos .productCont .btn-prod {
+      color: grey;
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 10px;
+      font-family: "Raleway", sans-serif; }
 
 body main .subtitle {
   text-align: center;
@@ -213,7 +227,10 @@ body main .formCont {
     text-align: center; }
     body main .formCont .form a {
       font-size: 1rem;
-      padding-right: 0px; }
+      padding-right: 0px;
+      text-decoration: none; }
+      body main .formCont .form a:hover {
+        color: #123D6B; }
     body main .formCont .form .option {
       padding-right: 10px; }
 

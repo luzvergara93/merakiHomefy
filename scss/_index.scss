@@ -23,7 +23,7 @@ body {
         }
 
         .navbar { 
-        
+
                 .dropdown-menu {
                     background-color: #e9e2c9;
                     border: none;
@@ -53,7 +53,7 @@ body {
             color: #123D6B;
         }
         
-        button {
+        .btn {
             background-color: #123D6B;
             color: map-get($map: $colors, $key: secondary);
             font-weight: bold;
@@ -196,7 +196,14 @@ body {
                 a {
                     font-size: 1rem;
                     padding-right: 0px;
+                    text-decoration: none;
+
+                    &:hover{
+                        color: map-get($map: $colors, $key: main);
+                    }
                 }
+
+
             }
             
         }
